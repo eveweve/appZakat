@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    android:padding="16dp"
+    tools:ignore="VisualLintBounds">
+
+    <!-- Judul Dashboard -->
+    <TextView
+        android:id="@+id/adminDashboardTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dashboard Admin"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_purple"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp" />
+
+    <!-- ListView untuk menampilkan data zakat -->
+    <ListView
+        android:id="@+id/adminListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/adminDashboardTitle"
+        android:layout_above="@+id/adminFooter"
+        android:divider="@android:color/holo_purple"
+        android:dividerHeight="1dp"
+        android:background="@android:color/black"
+        android:padding="8dp" />
+
+    <!-- Footer atau informasi tambahan -->
+    <TextView
+        android:id="@+id/adminFooter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="© 2024 Aplikasi Zakat"
+        android:textSize="12sp"
+        android:textColor="@android:color/darker_gray"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="16dp" />
+</RelativeLayout>

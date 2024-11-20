@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Zakat App</string>
+    <string-array name="zakat_types">
+        <item>Uang</item>
+        <item>Emas</item>
+        <item>Beras</item>
+    </string-array>
+</resources>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "769328804921",
+    "project_id": "zakat-app-dcb13",
+    "storage_bucket": "zakat-app-dcb13.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:769328804921:android:9e717ffd8367b9a35549e8",
+        "android_client_info": {
+          "package_name": "com.example.zakatapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnoBnGwYakAec7WYwKveda071IlIUaexY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

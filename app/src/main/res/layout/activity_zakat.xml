@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Judul -->
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bayar Zakat"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Dropdown Pilihan Zakat -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pilih Jenis Zakat"
+            android:textSize="16sp"
+            android:textColor="@color/colorText"
+            android:layout_marginBottom="8dp" />
+
+        <Spinner
+            android:id="@+id/zakatTypeSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:minHeight="48dp" />
+
+        <!-- Input Jumlah -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jumlah Zakat"
+            android:textSize="16sp"
+            android:textColor="@color/colorText"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/amountField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan jumlah zakat"
+            android:hintTextColor="@color/colorAccent"
+            android:textColor="@color/colorText"
+            android:padding="12dp"
+            android:layout_marginBottom="24dp"
+            android:inputType="numberDecimal" />
+
+        <!-- Tombol Submit -->
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bayar Zakat"
+            android:background="@drawable/button_background"
+            android:textColor="@color/colorButtonText"
+            android:padding="12dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
